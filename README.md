@@ -1,6 +1,7 @@
 # express-session-to-mongodb-
 Connecting express-session to mongodb database using connect-mongo
 
+
 ```js
 //npm install express express-session mongodb connect-mongo
 
@@ -30,3 +31,6 @@ app.get('/',(req,res) => {
 app.listen(3000, () => console.log('listening to port 3000'))
 
 ```
+reference to an error i encountered while learning this...
+
+https://stackoverflow.com/questions/66654037/mongo-connect-error-with-mongo-connectsession
